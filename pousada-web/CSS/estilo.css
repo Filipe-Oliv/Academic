@@ -1,0 +1,154 @@
+body{
+    font-family: 'Source Sans Pro', sans-serif;
+    margin-top: 0;
+    margin-bottom: 0; 
+    background-color: rgb(255, 252, 244);
+    color: rgb(34, 34, 34);
+    width: 100vw;
+
+}
+
+.tamanho_max_container {
+    max-width: 1024px;
+}
+
+.topo {
+    position: fixed;
+    right: 0;
+    left: 0;
+    background-color: rgb(255, 245, 233);
+  }
+
+.topo a {
+    color: rgb(34, 34, 34);
+    text-decoration: none;
+}
+
+.topo .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;    
+    padding: 10px 20px;
+    margin: 0 80px;
+}
+
+.topo_logo {
+    font-size: 24px;  
+}
+
+.topo_logo span {
+    color: cadetblue; 
+    padding-left: 30px;
+}
+
+.topo_link { 
+    text-transform: uppercase;
+    font-size: 18px; 
+    padding: 0 30px;
+}
+
+.container_cover{  
+    background-image: url('../assets/img-fundo.jpg');
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+    text-align: center; 
+    padding-bottom: 20px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container_square{
+    border: 1px solid white;
+    padding: 40px 80px;
+    border-radius: 5px;
+    background-color: rgba(69, 202, 69, 0.637);    
+}
+
+.sub_titulo, .rota, .sobre{
+   text-align: center;
+   padding-bottom: 20px;
+}
+
+.container_quartos{  
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-bottom: 20px;
+}
+
+.container_solteiro, .container_casal, .container_familia{
+    border-bottom: 2px solid #00836a;
+}
+
+.img_solteiro, .img_casal, .img_familia{
+    width: 300px;    
+    height: 250px;  
+    padding-bottom: 20px;
+}
+
+.container_solteiro a, .container_casal a, .container_familia a{
+    text-decoration: none;
+    color: #3d3d3d;    
+    text-align: center; 
+    display: flex;
+    justify-content: center;
+    padding-bottom: 20px;
+}
+
+.mapa{
+    padding-bottom: 20px;
+}
+
+.containers_menores{
+    display: flex;
+    justify-content: space-around;
+    height: 50vh;
+}
+
+.linha1, .linha2{
+    width: 600px;    
+}
+
+.container_menor1, .container_menor2, .container_menor3, .container_menor4 {
+    text-align: left;
+    height: 40%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.img_menor1, .img_menor2, .img_menor3, .img_menor4{
+    width: 120px;
+    height: 120px;
+    border-radius: 5px;
+}
+
+.rodape{
+    background-color: #00836a; 
+    color: mintcream;
+}
+
+.container_rodape{
+    display: flex;
+    flex-flow: row wrap; 
+    width: 100%; 
+    justify-content: space-around;
+    align-items: center; 
+    padding: 30px 0;
+    border-bottom: 2px solid rgb(91, 117, 91);
+}
+
+.contato{
+    font-size: 20px;
+}
+
+.link_mapa a, .celular a, .booking a{
+    color: mintcream;
+    text-decoration: none;
+}
+
+.copyright{
+    text-align: center;
+    padding-bottom: 10px;
+}
